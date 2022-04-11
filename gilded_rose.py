@@ -55,7 +55,10 @@ class BackstagePasses(Item):
             self.quality = 0
         else:
             self.quality += 1
-        self.quality = 50 if self.quality > 50 else self.quality
+        if self.quality > 50:
+            self.quality = 50 
+        else: 
+            self.quality
         self.sell_in -= 1
 
 
