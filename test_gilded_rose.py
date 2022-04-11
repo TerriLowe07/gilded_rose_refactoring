@@ -1,8 +1,6 @@
 import unittest
 
-from gilded_rose import ItemUpdate, GildedRose
-
-
+from gilded_rose import ItemUpdate, GildedRose, Item
 
 class GildedRoseTest(unittest.TestCase):
     def test_quality_day1(self):

@@ -38,12 +38,12 @@ class Item(object):
         self.sell_in -= 1
             
 
+
 class AgedBrie(Item):
     def update_quality(self):
         if 50 > self.quality > 0:
             self.quality += 1
         self.sell_in -= 1
-
 
 class BackstagePasses(Item):
     def update_quality(self):
@@ -60,7 +60,6 @@ class BackstagePasses(Item):
         else: 
             self.quality
         self.sell_in -= 1
-
 
 class Sulfuras(Item):
     def update_quality(self):

@@ -3,7 +3,7 @@ from __future__ import print_function
 from gilded_rose import ItemUpdate, GildedRose
 
 if __name__ == "__main__":
-    print ("OMGHAI!")
+    print ("Item Status")
     items = [
              ItemUpdate().update(name="+5 Dexterity Vest", sell_in=10, quality=20),
              ItemUpdate().update(name="Aged Brie", sell_in=2, quality=0),
